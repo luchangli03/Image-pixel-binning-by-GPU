@@ -1,0 +1,3 @@
+4 // pixel binning x
+1 // pixel binning y
+100 // camera offset

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="TinyTiff">
+      <UniqueIdentifier>{5f152480-6093-4d26-894c-3b7530caad2c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TinyTIFF-master\tinytiffreader.cpp">
+      <Filter>TinyTiff</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyTIFF-master\tinytiffwriter.cpp">
+      <Filter>TinyTiff</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TinyTIFF-master\tinytiffreader.h">
+      <Filter>TinyTiff</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyTIFF-master\tinytiffwriter.h">
+      <Filter>TinyTiff</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
